@@ -10,6 +10,7 @@ jobs:
           - windows-latest
           - ubuntu-latest
           - macos-12
+          - ubuntu-latest
         py-version:
           - 3.9
           - 3.8
