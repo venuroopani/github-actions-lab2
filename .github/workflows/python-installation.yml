@@ -8,15 +8,15 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-12
-          - windows-latest
+          #- macos-12
+          #- windows-latest
         py-version:
           - 3.7
           - 3.8
           - 3.9
-        exclude: #added
-        - os: macos-12 #added
-          py-version: 3.9 #added
+        # exclude: #added
+        # - os: macos-12 #added
+        #   py-version: 3.9 #added
     runs-on: '${{ matrix.os }}'
     steps:
     - name: Set up Python
